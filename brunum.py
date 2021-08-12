@@ -2,7 +2,6 @@ def passs(bfor):
     fil = open('999.txt', 'a')
     fil.write('\n' + bfor + str(num) )
     fil.close()
-c=1001
 
 a = 10
 b = 100
@@ -43,4 +42,4 @@ for num in range(10000000, 99999999):
     fil = open('999.txt', 'a')
     fil.write(str(num)+'\n')
     fil.close()
-print('done here"s it\n' )
+print("done here's it\n")
